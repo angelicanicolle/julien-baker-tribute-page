@@ -1,0 +1,134 @@
+html, body {
+    height: 100%;
+}
+
+/* Lora font */
+@import url(https://fonts.googleapis.com/css?family=Lora);
+/* Lato font */
+@import url(https://fonts.googleapis.com/css?family=Lato);
+
+#left-field {
+	padding: 20px 0 0 20px;
+}
+
+h1 {
+	font-family: "Lora-Bold";
+	font-size: 70px;
+	color: #fff;
+}
+
+h2 {
+	margin-top: -15px;
+	font-family: "Lato-Light";
+	font-size: 24px;
+	color: #fff;
+}
+
+h1 a {
+  color: #fff;
+	text-decoration: none;
+}
+
+h1 a:hover {
+  color: #fff;
+	text-decoration: none;
+}
+
+a:hover {
+  color: #D3D3D3;
+	text-decoration: none;
+}
+
+.blockquote {
+	font-family: Lora;
+	font-size: 18px;
+	color: #fff;
+	text-align:left;
+}
+
+.blockquote-footer {
+	margin-top: 10px;
+	font-family: Lato;
+	font-size: 14px;
+	color: #fff;
+}
+
+.blockquote-footer a {
+	font-family: Lora;
+	font-size: 12px;
+	color: #fff;
+}
+
+.blockquote-footer a:hover {
+	color: #D3D3D3;
+}
+
+#bottom-left-field {
+	padding: 20px 0 0 20px;
+	max-width: 40%;
+	position: fixed;
+	bottom: 0;
+	left: 0;
+}
+
+.top-right {
+	padding: 20px 20px 0 0;
+	max-width: 40%;
+	position: fixed;
+	top: 0;
+	right: 0;
+}
+
+.bottom-right {
+	padding: 20px 20px 0 0;
+	max-width: 40%;
+	position: fixed;
+	bottom: 0;
+	right: 0;
+	margin-bottom: 20px;
+}
+
+.bottom-right a {
+	font-family: Lato;
+	font-size: 18px;
+	color: #fff;
+}
+
+.btn-primary {
+	background-color: #fff;
+	border-color: #fff; 
+}
+
+.btn-primary a {
+	color: #202020;
+}
+
+.btn-primary:hover,
+.btn-primary:focus,
+.btn-primary:active,
+.btn-primary.active {
+	background-color: #D3D3D3;
+	border-color: #D3D3D3;
+}
+
+.fa {
+		color: #fff;
+    padding: 20px;
+    font-size: 30px;
+    width: 30px;
+    text-align: center;
+    text-decoration: none;
+}
+
+.bg { 
+    /* The image used */
+    background-image: url("https://static01.nyt.com/images/2017/10/23/arts/23BAKER1/23BAKER1-superJumbo.jpg");
+
+    /* Full height */
+    height: 100%; 
+
+    /* Center and scale the image nicely */
+    background-position: top center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
