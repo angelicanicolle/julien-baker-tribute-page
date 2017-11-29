@@ -15,7 +15,7 @@ html {
 @import url(https://fonts.googleapis.com/css?family=Lato);
 
 /* Smartphones (portrait and landscape) ----------- */
-@media only screen and (min-width : 320px) and (max-width : 480px) {
+@media only screen and (max-width : 480px) {
 /* Styles */
   #left-field {
     padding: 20px 0 0 20px;
@@ -120,19 +120,6 @@ html {
       width: 2rem;
       text-align: center;
       text-decoration: none;
-  }
-
-  .bg {
-      /* The image used */
-      background-image: url("../img/jb.jpg");
-
-      /* Full height*/
-      height: 100%;
-
-      /* Center and scale the image nicely */
-      background-position: top center;
-      background-repeat: no-repeat;
-      background-size: cover;
   }
 }
 
@@ -254,19 +241,6 @@ html {
       text-align: center;
       text-decoration: none;
   }
-
-  .bg {
-      /* The image used */
-      background-image: url("../img/jb.jpg");
-
-      /* Full height*/
-      height: 100%;
-
-      /* Center and scale the image nicely */
-      background-position: top center;
-      background-repeat: no-repeat;
-      background-size: cover;
-  }
 }
 
 /* Desktop and Laptops ----------- */
@@ -385,17 +359,17 @@ html {
       text-align: center;
       text-decoration: none;
   }
+}
 
-  .bg {
-      /* The image used */
-      background-image: url("../img/jb.jpg");
+.bg {
+    /* The image used */
+    background-image: url("../img/jb.jpg");
 
-      /* Full height */
-      height: 100%;
+    /* Full height */
+    height: 100%;
 
-      /* Center and scale the image nicely */
-      background-position: top center;
-      background-repeat: no-repeat;
-      background-size: cover;
-  }
+    /* Center and scale the image nicely */
+    background-position: top center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
