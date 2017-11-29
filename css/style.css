@@ -4,122 +4,59 @@ html, body {
 
 html {
   box-sizing: border-box;
+  font-size: 100%;
+  color: #fff;
 }
 *, *:before, *:after {
   box-sizing: inherit;
 }
 
-/* Lora font */
-@import url(https://fonts.googleapis.com/css?family=Lora);
-/* Lato font */
-@import url(https://fonts.googleapis.com/css?family=Lato);
-
 /* Smartphones (portrait and landscape) ----------- */
 @media only screen and (max-width : 480px) {
 /* Styles */
-  #left-field {
-    padding: 20px 0 0 20px;
-  }
 
   h1 {
-    font-family: "Lora-Bold";
-    font-size: 2rem;
-    color: #fff;
+    font-size: .5rem;
   }
 
   h2 {
     margin-top: -.5rem;
-    font-family: "Lato-Light";
     font-size: 1rem;
-    color: #fff;
   }
 
-  h1 a {
-    color: #fff;
-    text-decoration: none;
-  }
-
-  h1 a:hover {
-    color: #fff;
-    text-decoration: none;
-  }
-
-  a:hover {
-    color: #D3D3D3;
-    text-decoration: none;
-  }
 
   .blockquote {
-    font-family: Lora;
-    font-size: .85rem;
-    color: #fff;
-    text-align:left;
+    font-size: .5rem;
   }
 
   .blockquote-footer {
     margin-top: .5rem;
-    font-family: Lato;
-    font-size: .75rem;
-    color: #fff;
+    font-size: .5rem;
   }
 
   .blockquote-footer a {
-    font-family: Lora;
     font-size: .75rem;
-    color: #fff;
-  }
-
-  .blockquote-footer a:hover {
-    color: #D3D3D3;
   }
 
   #bottom-left-field {
-    padding: 20px 0 0 20px;
     max-width: 97%;
-    position: fixed;
-    bottom: 0;
-    left: 0;
   }
 
 
   .bottom-right {
     padding: 0 0 0 1rem;
     position: relative;
-    bottom: 0;
-    right: 0;
     margin-bottom: 1rem;
   }
 
   .bottom-right a {
-    font-family: Lato;
     font-size: .8rem;
-    color: #fff;
-  }
-
-  .btn-primary {
-    background-color: #fff;
-    border-color: #fff;
-  }
-
-  .btn-primary a {
-    color: #202020;
-  }
-
-  .btn-primary:hover,
-  .btn-primary:focus,
-  .btn-primary:active,
-  .btn-primary.active {
-    background-color: #D3D3D3;
-    border-color: #D3D3D3;
   }
 
   .fa {
-      color: #fff;
       padding: 1rem;
       font-size: 1.5rem;
       width: 2rem;
-      text-align: center;
-      text-decoration: none;
   }
 }
 
@@ -127,210 +64,146 @@ html {
 /* Mobile to Tablet (portrait and landscape) ----------- */
 @media only screen and (min-width : 480px) and (max-width : 800px) {
   /* Styles */
-  #left-field {
-    padding: 20px 0 0 20px;
-  }
 
   h1 {
-    font-family: "Lora-Bold";
     font-size: 4rem;
   	max-width: 60%;
-    color: #fff;
   }
 
   h2 {
     margin-top: -.5rem;
-    font-family: "Lato-Light";
     font-size: 1.5rem;
   	max-width: 60%;
-    color: #fff;
-  }
-
-  h1 a {
-    color: #fff;
-    text-decoration: none;
-  }
-
-  h1 a:hover {
-    color: #fff;
-    text-decoration: none;
-  }
-
-  a:hover {
-    color: #D3D3D3;
-    text-decoration: none;
   }
 
   .blockquote {
-    font-family: Lora;
     font-size: 1rem;
-    color: #fff;
-    text-align:left;
   }
 
   .blockquote-footer {
     margin-top: .5rem;
-    font-family: Lato;
     font-size: .85rem;
-    color: #fff;
   }
 
   .blockquote-footer a {
-    font-family: Lora;
     font-size: .85rem;
-    color: #fff;
-  }
-
-  .blockquote-footer a:hover {
-    color: #D3D3D3;
   }
 
   #bottom-left-field {
-    padding: 20px 0 0 20px;
     max-width: 60%;
-    position: fixed;
-    bottom: 0;
-    left: 0;
   }
 
   .top-right {
     padding: 1rem 1rem 0 0;
-    max-width: 40%;
-    position: fixed;
-    top: 0;
-    right: 0;
   }
 
   .bottom-right {
     padding: 0 1rem 0 1rem;
-  	max-width: 40%;
-    position: fixed;
-    bottom: 0;
-    right: 0;
     margin-bottom: 1rem;
   }
 
   .bottom-right a {
-    font-family: Lato;
     font-size: 1rem;
-    color: #fff;
-  }
-
-  .btn-primary {
-    background-color: #fff;
-    border-color: #fff;
-  }
-
-  .btn-primary a {
-    color: #202020;
-  }
-
-  .btn-primary:hover,
-  .btn-primary:focus,
-  .btn-primary:active,
-  .btn-primary.active {
-    background-color: #D3D3D3;
-    border-color: #D3D3D3;
   }
 
   .fa {
-      color: #fff;
       padding: 1rem;
       font-size: 1.5rem;
       width: 2rem;
-      text-align: center;
-      text-decoration: none;
   }
 }
 
-/* Desktop and Laptops ----------- */
+/* Desktop and Laptops -----------*/
 @media screen and (min-width: 800px) {
-  /* Desktop styles go here */
+  /* Desktop styles go here*/
 
-  #left-field {
-  	padding: 20px 0 0 20px;
-  }
+}
 
-  h1 {
-    font-family: "Lora-Bold";
-    font-size: 5rem;
-    color: #fff;
-  }
+/* DEFAULT ----------- */
+#left-field {
+  padding: 20px 0 0 20px;
+}
 
-  h2 {
-  	margin-top: -1rem;
-  	font-family: "Lato-Light";
-  	font-size: 24px;
-  	color: #fff;
-  }
+h1 {
+  font-family: "Lora-Bold";
+  font-size: 5rem;
+  color: #fff;
+}
 
-  h1 a {
-    color: #fff;
-  	text-decoration: none;
-  }
+h2 {
+  margin-top: -1rem;
+  font-family: "Lato-Light";
+  font-size: 2rem;
+  color: #fff;
+}
 
-  h1 a:hover {
-    color: #fff;
-  	text-decoration: none;
-  }
+h1 a {
+  color: #fff;
+  text-decoration: none;
+}
 
-  a:hover {
-    color: #D3D3D3;
-  	text-decoration: none;
-  }
+h1 a:hover {
+  color: #fff;
+  text-decoration: none;
+}
 
-  .blockquote {
-  	font-family: Lora;
-  	font-size: 18px;
-  	color: #fff;
-  	text-align:left;
-  }
+a:hover {
+  color: #D3D3D3;
+  text-decoration: none;
+}
 
-  .blockquote-footer {
-  	margin-top: 10px;
-  	font-family: Lato;
-  	font-size: 14px;
-  	color: #fff;
-  }
+.blockquote {
+  font-family: Lora;
+  font-size: 1rem;
+  color: #fff;
+  text-align:left;
+}
 
-  .blockquote-footer a {
-  	font-family: Lora;
-  	font-size: 12px;
-  	color: #fff;
-  }
+.blockquote-footer {
+  margin-top: 10px;
+  font-family: Lato;
+  font-size: 1rem;
+  color: #fff;
+}
 
-  .blockquote-footer a:hover {
-  	color: #D3D3D3;
-  }
+.blockquote-footer a {
+  font-family: Lora;
+  font-size: 1rem;
+  color: #fff;
+}
 
-  #bottom-left-field {
-  	padding: 20px 0 0 20px;
-  	max-width: 40%;
-  	position: fixed;
-  	bottom: 0;
-  	left: 0;
-  }
+.blockquote-footer a:hover {
+  color: #D3D3D3;
+}
 
-  .top-right {
-  	padding: 20px 20px 0 0;
-  	max-width: 40%;
-  	position: fixed;
-  	top: 0;
-  	right: 0;
-  }
+#bottom-left-field {
+  padding: 20px 0 0 20px;
+  max-width: 40%;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+}
 
-  .bottom-right {
-  	padding: 20px 20px 0 0;
-  	max-width: 40%;
-  	position: fixed;
-  	bottom: 0;
-  	right: 0;
-  	margin-bottom: 20px;
-  }
+.top-right {
+  padding: 20px 20px 0 0;
+  max-width: 40%;
+  position: fixed;
+  top: 0;
+  right: 0;
+}
+
+.bottom-right {
+  padding: 20px 20px 0 0;
+  max-width: 40%;
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  margin-bottom: 20px;
+}
 
   .bottom-right a {
   	font-family: Lato;
-  	font-size: 18px;
+  	font-size: 1.25rem;
   	color: #fff;
   }
 
@@ -354,12 +227,11 @@ html {
   .fa {
   		color: #fff;
       padding: 20px;
-      font-size: 30px;
+      font-size: 2rem;
       width: 30px;
       text-align: center;
       text-decoration: none;
   }
-}
 
 .bg {
     /* The image used */
