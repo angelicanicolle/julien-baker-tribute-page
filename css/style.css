@@ -1,125 +1,19 @@
 html, body {
     height: 100%;
+    font-size: 100%;
 }
 
 html {
   box-sizing: border-box;
-  font-size: 100%;
   color: #fff;
 }
 *, *:before, *:after {
   box-sizing: inherit;
 }
 
-/* Smartphones (portrait and landscape) ----------- */
-@media only screen and (max-width : 480px) {
-/* Styles */
-
-  h1 {
-    font-size: .5rem;
-  }
-
-  h2 {
-    margin-top: -.5rem;
-    font-size: 1rem;
-  }
 
 
-  .blockquote {
-    font-size: .5rem;
-  }
-
-  .blockquote-footer {
-    margin-top: .5rem;
-    font-size: .5rem;
-  }
-
-  .blockquote-footer a {
-    font-size: .75rem;
-  }
-
-  #bottom-left-field {
-    max-width: 97%;
-  }
-
-
-  .bottom-right {
-    padding: 0 0 0 1rem;
-    position: relative;
-    margin-bottom: 1rem;
-  }
-
-  .bottom-right a {
-    font-size: .8rem;
-  }
-
-  .fa {
-      padding: 1rem;
-      font-size: 1.5rem;
-      width: 2rem;
-  }
-}
-
-
-/* Mobile to Tablet (portrait and landscape) ----------- */
-@media only screen and (min-width : 480px) and (max-width : 800px) {
-  /* Styles */
-
-  h1 {
-    font-size: 4rem;
-  	max-width: 60%;
-  }
-
-  h2 {
-    margin-top: -.5rem;
-    font-size: 1.5rem;
-  	max-width: 60%;
-  }
-
-  .blockquote {
-    font-size: 1rem;
-  }
-
-  .blockquote-footer {
-    margin-top: .5rem;
-    font-size: .85rem;
-  }
-
-  .blockquote-footer a {
-    font-size: .85rem;
-  }
-
-  #bottom-left-field {
-    max-width: 60%;
-  }
-
-  .top-right {
-    padding: 1rem 1rem 0 0;
-  }
-
-  .bottom-right {
-    padding: 0 1rem 0 1rem;
-    margin-bottom: 1rem;
-  }
-
-  .bottom-right a {
-    font-size: 1rem;
-  }
-
-  .fa {
-      padding: 1rem;
-      font-size: 1.5rem;
-      width: 2rem;
-  }
-}
-
-/* Desktop and Laptops -----------*/
-@media screen and (min-width: 800px) {
-  /* Desktop styles go here*/
-
-}
-
-/* DEFAULT ----------- */
+/* DEFAULT (Desktop) ----------- */
 #left-field {
   padding: 20px 0 0 20px;
 }
@@ -233,6 +127,114 @@ a:hover {
       text-decoration: none;
   }
 
+
+/* Smartphones (portrait and landscape) ----------- */
+@media only screen and (max-width : 600px) {
+/* Styles */
+
+  h1 {
+    font-size: 3em;
+  }
+
+  h2 {
+    margin-top: -.5em;
+    font-size: 1.25em;
+  }
+
+
+  .blockquote {
+    font-size: .9em;
+  }
+
+  .blockquote-footer {
+    margin-top: .5em;
+    font-size: .85em;
+  }
+
+  .blockquote-footer a {
+    font-size: 1em;
+  }
+
+  #bottom-left-field {
+    max-width: 97%;
+  }
+
+  .top-right {
+    padding: 0 .5em 0 .75em;
+    position: relative;
+  }
+
+  .bottom-right {
+    padding: 0 0 0 1em;
+    position: relative;
+    margin-bottom: 1em;
+  }
+
+  .bottom-right a {
+    font-size: .9em;
+  }
+
+  .fa {
+      padding: .25em;
+      font-size: 1.5em;
+      width: 1em;
+  }
+}
+
+
+/* Mobile to Tablet (portrait and landscape) ----------- */
+@media only screen and (min-width : 480px) and (max-width : 800px) {
+  /* Styles */
+
+  h1 {
+    font-size: 4rem;
+  	max-width: 60%;
+  }
+
+  h2 {
+    margin-top: -.5rem;
+    font-size: 1.5rem;
+  	max-width: 60%;
+  }
+
+  .blockquote {
+    font-size: 1rem;
+  }
+
+  .blockquote-footer {
+    margin-top: .5rem;
+    font-size: .85rem;
+  }
+
+  .blockquote-footer a {
+    font-size: .85rem;
+  }
+
+  #bottom-left-field {
+    max-width: 60%;
+  }
+
+  .top-right {
+    padding: 1rem 1rem 0 0;
+  }
+
+  .bottom-right {
+    padding: 0 1rem 0 1rem;
+    margin-bottom: 1rem;
+  }
+
+  .bottom-right a {
+    font-size: 1rem;
+  }
+
+  .fa {
+      padding: 1rem;
+      font-size: 1.5rem;
+      width: 2rem;
+  }
+}
+
+/* Background Image (Same on all Devices)----------- */
 .bg {
     /* The image used */
     background-image: url("../img/jb.jpg");
